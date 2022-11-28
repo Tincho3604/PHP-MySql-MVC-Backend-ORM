@@ -1,0 +1,15 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "firebase/php-jwt": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "App\\Router\\": "App/Router/",
+            "App\\Modules\\": "App/Modules/",
+            "App\\Utils\\": "App/Utils/",
+            "App\\Config\\": "App/Config/"
+        }
+    }
+}
